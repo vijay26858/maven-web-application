@@ -96,16 +96,14 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <repositoryId>nexus</repositoryId> 
 	      <id>nexus</id>
 	      <name>admin</name>
 	      <url>http://3.108.191.128:8081/repository/flipkart-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-              <repositoryId>nexus</repositoryId>
-	      <id>nexus</id>
-	      <name>admin</name>
+              <id>nexus</id>
+	      <name>practice</name>
 	      <url>http://http://3.108.191.128:8081/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	    
